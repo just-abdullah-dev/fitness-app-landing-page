@@ -10,7 +10,7 @@ export default function HeroSection() {
     <div className=" bg-white font-semibold">
       <header className=" py-2 px-4 md:px-8 flex items-center justify-between ">
         <Link href="/" className="flex items-center space-x-2 ">
-          {/* <Image src="/placeholder.svg" alt="Hevy Logo" width={40} height={40} /> */}
+          {/* <Image src="/placeholder.svg" alt="App Name Logo" width={40} height={40} /> */}
           <span className="text-2xl font-bold">App Name</span>
         </Link>
         <div
@@ -44,7 +44,7 @@ export default function HeroSection() {
             href="/coach"
             className="text-gray-600 hover:text-blue-600 duration-300"
           >
-            Hevy Coach
+            App Name Coach
           </Link>
           <Link
             href="/about"
@@ -95,7 +95,7 @@ export default function HeroSection() {
               href="/coach"
               className="text-gray-600 hover:text-blue-600 duration-300"
             >
-              Hevy Coach
+              App Name Coach
             </Link>
             <Link
               href="/about"
@@ -133,7 +133,7 @@ export default function HeroSection() {
               Stay Motivated
             </h1>
             <p className="text-xl text-gray-600 mb-8 font-normal">
-              Hevy is a free workout tracker for iOS and Android.
+              App Name is a free workout tracker for iOS and Android.
               <br />
               Build routines and track progress with friends.
             </p>
@@ -190,10 +190,10 @@ export default function HeroSection() {
           <div className="md:w-1/2 relative">
             <Image
               src="https://www.hevyapp.com/wp-content/uploads/main_image-2-768x842.png"
-              alt="Hevy app screenshots"
+              alt="App Name app screenshots"
               width={500}
               height={400}
-              className="rounded-lg shadow-xl aspect-auto"
+              className=" aspect-auto"
             />
           </div>
         </main>

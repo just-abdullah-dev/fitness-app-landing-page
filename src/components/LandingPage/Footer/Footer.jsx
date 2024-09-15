@@ -33,7 +33,7 @@ export default function Footer() {
               <li><Link href="#" className="text-blue-500">Affiliate Program</Link></li>
               <li><Link href="#" className="text-blue-500">Use Cases</Link></li>
               <li><Link href="#" className="text-blue-500">FAQ</Link></li>
-              <li><Link href="#" className="text-blue-500">Hevy Coach</Link></li>
+              <li><Link href="#" className="text-blue-500">App Name Coach</Link></li>
             </ul>
           </div>
           <div>
@@ -81,7 +81,7 @@ export default function Footer() {
             </p>
           </div>
           {/* <p className="text-sm text-gray-500 mt-4">
-            Hevy® is a registered trademark of Hevy Studios, S.L. in the United States as well as certain other jurisdictions.
+            Hevy® is a registered trademark of App Name Studios, S.L. in the United States as well as certain other jurisdictions.
           </p> */}
         </div>
       </div>
