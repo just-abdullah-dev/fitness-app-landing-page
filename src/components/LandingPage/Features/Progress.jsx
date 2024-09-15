@@ -8,7 +8,7 @@ export default function Progress() {
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Measure your progress</h2>
           <p className="text-black">
-            Staying motivated is easier when you can see how far you've come.
+            Staying motivated is easier when you can see how far you&apos;ve come.
           </p>
           <ul className="space-y-3">
             {[
