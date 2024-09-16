@@ -37,13 +37,13 @@ export default function AboutUsPage() {
             skills, all united by a shared vision to push the boundaries of
             what’s possible. We work collaboratively to create solutions that
             are not only effective but also tailored to the unique needs of each
-            client. Whether it's developing a cutting-edge web platform,
+            client. Whether it&apos;s developing a cutting-edge web platform,
             crafting a digital marketing strategy, or delivering a flawless user
             experience, our goal is to leave a lasting positive impact.
           </p>
           <p className="text-gray-700">
             We believe that success comes from not just hard work but also
-            passion and creativity. That's why we encourage an open, innovative
+            passion and creativity. That&apos;s why we encourage an open, innovative
             environment where everyone can contribute ideas and challenge the
             status quo. This allows us to stay ahead of industry trends and
             continuously refine our methods. Our process involves deep research,
@@ -54,9 +54,9 @@ export default function AboutUsPage() {
             Looking ahead, we are excited about the opportunities that lie in
             store. With a client-first approach and a passion for pushing
             creative and technical boundaries, we are confident in our ability
-            to deliver exceptional results. Whether you're a small business
+            to deliver exceptional results. Whether you&apos;re a small business
             looking for personalized service or a large company in need of a
-            reliable partner, we're here to help you succeed. Let's achieve
+            reliable partner, we&apos;re here to help you succeed. Let&apos;s achieve
             something amazing together.
           </p>
         </div>
