@@ -3,7 +3,7 @@ import { Check } from 'lucide-react'
 
 export default function Progress() {
   return (
-    <div className="container mx-auto font-semibold px-4 py-16 md:px-6 lg:px-8">
+    <div id='progress' className="container mx-auto font-semibold px-4 py-16 md:px-6 lg:px-8">
       <div className="flex flex-col md:flex-row gap-12 lg:grid-cols-2 lg:gap-8 items-center justify-around">
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Measure your progress</h2>

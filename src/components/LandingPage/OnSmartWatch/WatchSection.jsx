@@ -3,7 +3,7 @@ import { Check } from "lucide-react"
 
 export default function WatchSection() {
   return (
-    <div className="container mx-auto font-semibold px-4 py-8 md:py-12 lg:py-16">
+    <div id="watch" className="container mx-auto font-semibold px-4 py-8 md:py-12 lg:py-16">
       <div className="flex md:grid flex-col-reverse justify-center md:flex-row gap-8 md:grid-cols-2 md:gap-12 lg:gap-16 items-center">
         <div className="space-y-4">
           <Image

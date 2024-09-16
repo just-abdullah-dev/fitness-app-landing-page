@@ -3,6 +3,8 @@ import HeroSection from './HeroSection/HeroSection';
 import Features from './Features/Features';
 import Footer from './Footer/Footer';
 import WatchSection from './OnSmartWatch/WatchSection';
+import Testimonials from './Testimonials/Testimonials';
+import GetStarted from './GetStarted/GetStarted';
 
 export default function LandingPage() {
   return (
@@ -10,6 +12,8 @@ export default function LandingPage() {
         <HeroSection />
         <Features />
         <WatchSection />
+        <Testimonials />
+        <GetStarted />
         <Footer />
     </div>
   )

@@ -1,127 +1,13 @@
-"use client";
-import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
+import Header from "./Header";
 
 export default function HeroSection() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className=" bg-white font-semibold">
-      <header className=" py-2 px-4 md:px-8 flex items-center justify-between ">
-        <Link href="/" className="flex items-center space-x-2 ">
-          {/* <Image src="/placeholder.svg" alt="App Name Logo" width={40} height={40} /> */}
-          <span className="text-2xl font-bold">App Name</span>
-        </Link>
-        <div
-          className="md:hidden"
-          onClick={() => {
-            setIsMenuOpen(!isMenuOpen);
-          }}
-        >
-          {isMenuOpen ? <X /> : <Menu />}
-        </div>
-        <nav className="hidden md:flex space-x-6">
-          <Link
-            href="/"
-            className="text-blue-600 hover:text-blue-600 duration-300"
-          >
-            Home
-          </Link>
-          <Link
-            href="/product"
-            className="text-gray-600 hover:text-blue-600 duration-300"
-          >
-            Product
-          </Link>
-          <Link
-            href="/articles"
-            className="text-gray-600 hover:text-blue-600 duration-300"
-          >
-            Articles
-          </Link>
-          <Link
-            href="/coach"
-            className="text-gray-600 hover:text-blue-600 duration-300"
-          >
-            App Name Coach
-          </Link>
-          <Link
-            href="/about"
-            className="text-gray-600 hover:text-blue-600 duration-300"
-          >
-            About Us
-          </Link>
-        </nav>
-        <div className="hidden md:flex items-center space-x-4">
-          <Link
-            href="/login"
-            className="text-gray-600 hover:text-blue-600 duration-300"
-          >
-            Log in
-          </Link>
-          <Link
-            href="/signup"
-            className="bg-blue-600 text-white px-6 py-3 rounded-3xl hover:bg-opacity-90 duration-300"
-          >
-            Sign Up
-          </Link>
-        </div>
-        <div
-          className={`${
-            isMenuOpen ? " top-[56px] z-[2] " : "top-[-21rem]"
-          } absolute w-full p-6 bg-white border-b-2 border-black duration-700 transition-all`}
-        >
-          <nav className="md:hidden grid gap-6">
-            <Link
-              href="/"
-              className="text-blue-600 hover:text-blue-600 duration-300"
-            >
-              Home
-            </Link>
-            <Link
-              href="/product"
-              className="text-gray-600 hover:text-blue-600 duration-300"
-            >
-              Product
-            </Link>
-            <Link
-              href="/articles"
-              className="text-gray-600 hover:text-blue-600 duration-300"
-            >
-              Articles
-            </Link>
-            <Link
-              href="/coach"
-              className="text-gray-600 hover:text-blue-600 duration-300"
-            >
-              App Name Coach
-            </Link>
-            <Link
-              href="/about"
-              className="text-gray-600 hover:text-blue-600 duration-300"
-            >
-              About Us
-            </Link>
-          </nav>
-          <div className="md:hidden flex items-center space-x-4">
-            <Link
-              href="/login"
-              className="text-gray-600 hover:text-blue-600 duration-300"
-            >
-              Log in
-            </Link>
-            <Link
-              href="/signup"
-              className="bg-blue-600 text-white px-6 py-3 rounded-3xl hover:bg-opacity-90 duration-300"
-            >
-              Sign Up
-            </Link>
-          </div>
-        </div>
-      </header>
       <div className=" px-4 sm:px-6 lg:px-8 ">
-        {" "}
+        <Header activeNavLink={""} />
         {/* Added container with max width and padding */}
         <main className="py-6 md:py-12 px-0 md:px-8 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
